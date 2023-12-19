@@ -2,6 +2,7 @@ package web
 
 import (
 	"flag"
+	"fmt"
 	"github.com/spf13/viper"
 	autoload2 "go-web-demo/configs/web/autoload"
 	"strings"
@@ -97,5 +98,7 @@ func loadOfEvn() {
 func loadOfFlag() {
 	var env string
 	flag.StringVar(&env, "env", Config.Env, "环境变量")
+	flag.Parse()
+	fmt.Println("运行环境：", env)
 	Config.Env = env
 }
