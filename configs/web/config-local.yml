@@ -1,0 +1,17 @@
+app:
+  port: 8080
+log:
+  file: "/Users/zhouxingma/logs/go-web-demo/go-web-demo.log"
+  maxSize: 100
+  maxBackups: 200
+  maxAge: 30
+  compress: true
+mysql:
+  url: "centos.acthat.com"
+  port: 3306
+  user: "root"
+  password: "books123"
+  dbName: "comm_test"
+  otherConfig: "charset=utf8mb4&parseTime=True&loc=Local"
+  maxOpenConns: 20
+  maxIdleConns: 10

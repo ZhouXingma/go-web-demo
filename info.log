@@ -1,0 +1,2 @@
+2023-11-26T21:38:07.005+0800	INFO	bootstrap/bootstrap.go:30	hello world
+2023-11-26T21:38:11.419+0800	ERROR	bootstrap/bootstrap.go:31	hello world
