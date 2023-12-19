@@ -79,7 +79,18 @@ create table user
 
 ```
 
+## 2.2 Demo 依赖
+本程序比较简单，比较基础，依赖的也比较简单
 
+（1）gin: web组件
+
+（2）sqlx：喜欢类似于mybatis一样手写sql，不喜欢orm
+
+（3）ulid：生成ulid的id
+
+（4）viper：装配配置信息
+
+（5）zapcore：日志信息
 
 
 
